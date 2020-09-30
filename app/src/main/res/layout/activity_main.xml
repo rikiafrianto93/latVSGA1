@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/j"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="J"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/i"
+        app:layout_constraintTop_toBottomOf="@+id/f" />
+
+    <Button
+        android:id="@+id/obesar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="O"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/n"
+        app:layout_constraintTop_toBottomOf="@+id/k" />
+
+    <Button
+        android:id="@+id/i"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="I"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/e" />
+
+    <Button
+        android:id="@+id/el"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="L"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/k"
+        app:layout_constraintTop_toBottomOf="@+id/h" />
+
+    <Button
+        android:id="@+id/m"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="M"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/i" />
+
+    <Button
+        android:id="@+id/n"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="N"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/m"
+        app:layout_constraintTop_toBottomOf="@+id/j" />
+
+    <Button
+        android:id="@+id/k"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="K"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/j"
+        app:layout_constraintTop_toBottomOf="@+id/g" />
+
+    <Button
+        android:id="@+id/move"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#8BC34A"
+        android:text="MOVE"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/obesar"
+        app:layout_constraintTop_toBottomOf="@+id/el" />
+
+    <Button
+        android:id="@+id/h"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="H"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/g"
+        app:layout_constraintTop_toBottomOf="@+id/d" />
+
+    <Button
+        android:id="@+id/e"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="E"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a" />
+
+    <Button
+        android:id="@+id/f"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="F"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/e"
+        app:layout_constraintTop_toBottomOf="@+id/b" />
+
+    <Button
+        android:id="@+id/g"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="G"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/f"
+        app:layout_constraintTop_toBottomOf="@+id/c" />
+
+    <Button
+        android:id="@+id/d"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="D"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/c"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="C"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/b"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="B"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/a"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/a"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="A"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
